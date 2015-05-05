@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MailActivity">
+
+    <item android:id="@+id/action_mailer"
+        android:icon="@drawable/ic_mail_white_48dp" android:title="Mailer"
+        android:orderInCategory="100" android:showAsAction="always|withText" />
+
+    <item android:id="@+id/action_send" android:title="Send"
+        android:icon="@drawable/ic_send_white_48dp"
+        android:orderInCategory="100" android:showAsAction="always|withText" />
+
+</menu>

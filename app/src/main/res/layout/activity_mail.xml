@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/fromEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="From Email"
+        android:textColorHint="#555"
+        android:textColor="#292929"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a8a8a8"/>
+
+
+    <EditText
+        android:id="@+id/fromPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#555"
+        android:textColor="#292929"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a8a8a8"/>
+
+
+    <EditText
+        android:id="@+id/toEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="To Email"
+        android:textColorHint="#555"
+        android:textColor="#292929"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a8a8a8"/>
+
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Subject"
+        android:textColorHint="#555"
+        android:textColor="#292929"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a8a8a8"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:hint="From Email"
+        android:gravity="top"
+        android:textColorHint="#555"
+        android:textColor="#292929"
+        android:textSize="16sp"
+        android:background="@android:color/transparent"/>
+
+
+
+</LinearLayout>
